@@ -1,0 +1,303 @@
+/* UNIVERSAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d1d2e;
+    color: white;
+    line-height: 1.5;
+}
+
+
+
+/* HEADER */
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #26263a;
+}
+
+.salikh {
+    font-size: 22px;
+}
+
+.headh {
+    word-spacing: 40px;
+    font-size: 18px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.logo_1,
+.navlogo {
+    font-size: 22px;
+}
+
+
+
+/* HERO SECTION */
+.parent {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.child_1 {
+    width: 32%;
+    padding: 20px;
+}
+
+.yellow {
+    background-color: #f8760b;
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+#jamessize {
+    font-size: 45px;
+}
+
+#im {
+    font-size: 22px;
+}
+
+.circleimg {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.h3 {
+    margin-bottom: 1rem;
+}
+
+.p_1 {
+    margin-bottom: 1rem;
+}
+
+.p_2 {
+    margin: 1rem 0;
+    font-size: 18px;
+    color: #f8760b;
+}
+
+
+
+/* SOCIAL ICONS */
+.logo_2 {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #f8760b;
+}
+
+
+
+/* COMPANY LOGOS BAR */
+.zindexcolor {
+    background-color: #1f1f30;
+    padding: 2rem 0;
+}
+
+.zindexp {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #3e3e57;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.zindexc {
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.zindexpic {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+
+/* FOOTER SECTION */
+.footerp {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    background-color: #26263a;
+    flex-wrap: wrap;
+}
+
+.footerc {
+    width: 48%;
+}
+
+#nameh {
+    margin-bottom: 1rem;
+}
+
+#namep {
+    margin-bottom: 1rem;
+}
+
+.numberp {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.numberc {
+    text-align: center;
+}
+
+.numbercolor {
+    font-size: 30px;
+    color: #f8760b;
+}
+
+.finaldiv {
+    margin-bottom: 2rem;
+}
+
+.arrow {
+    margin-left: 10px;
+    color: #f8760b;
+}
+
+.lastpara {
+    font-size: 18px;
+}
+
+
+
+/* --------------------------------------- */
+/*         📱 RESPONSIVE DESIGN            */
+/* --------------------------------------- */
+
+
+/* Tablets (Max-width: 992px) */
+@media (max-width: 992px) {
+
+    .child_1 {
+        width: 48%;
+    }
+
+    #jamessize {
+        font-size: 38px;
+    }
+
+    .headh {
+        word-spacing: 20px;
+        font-size: 16px;
+    }
+}
+
+
+/* Mobile (Max-width: 768px) */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .start {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .headh {
+        word-spacing: 10px;
+        font-size: 14px;
+    }
+
+    /* HERO SECTION */
+    .parent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .child_1 {
+        width: 100%;
+    }
+
+    #jamessize {
+        font-size: 32px;
+    }
+
+    #im {
+        font-size: 18px;
+    }
+
+    .circleimg {
+        max-width: 240px;
+        height: 240px;
+    }
+
+    /* COMPANIES */
+    .zindexp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zindexc {
+        width: 90%;
+    }
+
+    /* FOOTER */
+    .footerc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .numberp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lastpara {
+        font-size: 16px;
+    }
+}
+
+
+/* Small Mobile (Max-width: 480px) */
+@media (max-width: 480px) {
+
+    .headh {
+        font-size: 13px;
+        word-spacing: 5px;
+    }
+
+    #jamessize {
+        font-size: 28px;
+    }
+
+    .circleimg {
+        height: 200px;
+        width: 200px;
+    }
+
+    .yellow {
+        width: 150px;
+    }
+}
